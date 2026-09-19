@@ -8,9 +8,9 @@ DEFAULT_BACKEND="${DEFAULT_BACKEND:-cffdg.mindfreak.online:700}"
 DEFAULT_ROUTES="${ROUTES:-/vp-us=cffdg.mindfreak.online:700,/vp-ge=fgfja.mindfreak.online:700,/vp-uk=dbaai.mindfreak.online:700,/vp-sg=dcafc.mindfreak.online:700}"
 MEMORY="${MEMORY:-512Mi}"
 CPU="${CPU:-1}"
-CONCURRENCY="${CONCURRENCY:-80}"
-MIN_INSTANCES="${MIN_INSTANCES:-0}"
-MAX_INSTANCES="${MAX_INSTANCES:-2}"
+CONCURRENCY="${CONCURRENCY:-1000}"
+MIN_INSTANCES="${MIN_INSTANCES:-1}"
+MAX_INSTANCES="${MAX_INSTANCES:-20}"
 TIMEOUT="${TIMEOUT:-3600}"
 
 choose_region() {
